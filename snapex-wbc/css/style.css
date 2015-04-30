@@ -1064,7 +1064,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     border-spacing: 0;
     display: table;
     position: relative;
-    table-layout: fixed;
+    layout: fixed;
     width: 100%;
 }
 
@@ -2696,6 +2696,35 @@ ul.amounts li {
     vertical-align: middle !important;
 }
 
+.table-addproject-button {
+    float: right;
+}
+
+.table-addproject-button button{
+    height: 40px;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.table-project-title{
+    float:left;
+}
+
+.table-project-title h1{
+    color: #39b5aa;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.table-project-title p{
+    padding-top: 5px;
+    color: #a4aaba;
+}
+
 .no-border {
     border-bottom: none;
 }
@@ -2954,6 +2983,7 @@ ul.amounts li {
     margin-right: 0px;
 }
 
+
 .m-bot20 {
     margin-bottom: 20px;
 }
@@ -3049,7 +3079,7 @@ ul.amounts li {
     width: 175px;
 }
 
-.form-horizontal.tasi-form .form-group {
+.form-horizontal.form .form-group {
     border-bottom: 1px solid #eff2f7;
     padding-bottom: 15px;
     margin-bottom: 15px;
