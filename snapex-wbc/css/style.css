@@ -1,3 +1,10 @@
+/*
+Template Name: Flat Lab Dashboard build with Bootstrap v3.0.2
+Template Version: 1.2.0
+Author: Mosaddek Hossain
+Website: http://thevectorlab.net/
+*/
+
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 
@@ -207,7 +214,7 @@ ul.sidebar-menu , ul.sidebar-menu li ul.sub{
 }
 
 ul.sidebar-menu {
-    margin-top: 0px;
+    margin-top: 75px;
 }
 
 #sidebar > ul > li > ul.sub {
@@ -1064,7 +1071,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     border-spacing: 0;
     display: table;
     position: relative;
-    layout: fixed;
+    table-layout: fixed;
     width: 100%;
 }
 
@@ -2249,42 +2256,6 @@ ul.inbox-pagination li {
     margin-left: 55px;
 }
 
-
-.user-heading {
-    color: #fff;
-    border-radius: 4px 4px 0 0;
-    -webkit-border-radius: 4px 4px 0 0;
-    padding: 30px;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: -10px; 
-}
-
-
-.user-heading.round a  {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border: 10px solid rgba(256,256,256,0.3);
-    display: inline-block;
-}
-
-.user-heading a img {
-    width: 112px;
-    height: 112px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
-
-.user-heading h1 {
-    font-size: 22px;
-    font-weight: 300;
-    margin-bottom: 5px;
-}
-
-.user-heading p {
-    font-size: 12px;
-}
-
 /*profile*/
 
 .profile-nav .user-heading {
@@ -2484,7 +2455,7 @@ ul.summary-list {
 
 ul.summary-list > li {
     display: inline-block;
-    width: 19.5%;
+    width: 24.5%;
     text-align: center;
 }
 
@@ -2694,35 +2665,6 @@ ul.amounts li {
 
 .table-advance tr td {
     vertical-align: middle !important;
-}
-
-.table-addproject-button {
-    float: right;
-}
-
-.table-addproject-button button{
-    height: 40px;
-    padding: 8px;
-    margin-top: 10px;
-    font-size: 15px;
-
-}
-
-.table-project-title{
-    float:left;
-}
-
-.table-project-title h1{
-    color: #39b5aa;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-}
-
-.table-project-title p{
-    padding-top: 5px;
-    color: #a4aaba;
 }
 
 .no-border {
@@ -2983,7 +2925,6 @@ ul.amounts li {
     margin-right: 0px;
 }
 
-
 .m-bot20 {
     margin-bottom: 20px;
 }
@@ -3079,7 +3020,7 @@ ul.amounts li {
     width: 175px;
 }
 
-.form-horizontal.form .form-group {
+.form-horizontal.tasi-form .form-group {
     border-bottom: 1px solid #eff2f7;
     padding-bottom: 15px;
     margin-bottom: 15px;
@@ -4287,10 +4228,6 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 
 /*Horizontal menu*/
 
-.full-width {
-    background-color: #ccc !important;
-}
-
 .full-width #main-content {
     margin-left: 0;
 }
@@ -4301,6 +4238,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 }
 
 .horizontal-menu .navbar-nav > li > a {
+    color: #2e2e2e;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -4328,16 +4266,6 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
     font-size: 13px;
 }
 
-
-
-.full-width .container .wrapper{
-    background: #F1F2F7;
-    min-height: 900px;
-}
-
-.wrapper{
-        min-height: 900px;
-}
 
 /*advanced form*/
 
@@ -4706,3 +4634,52 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 .site-min-height {
     min-height: 900px;
 }
+
+/*modified by wbc*/
+.table-project-title{
+    float: left;
+}
+
+.table-addproject-button {
+    float:right;
+    margin-top: 30px;
+    margin-right:2%;
+}
+
+.sidebar-menu h1 {
+    color:#fff;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    
+}
+
+.sidebar-menu p {
+    color:#999;
+    font-size: 12;
+    margin-top: 90px;
+    margin-left: 22px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.basic-information-header {
+    background: #7087A3;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+
+.testee-profile-nav .user-heading {
+    background: #ff766c;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    padding: 30px;
+    text-align: center;
+}
+
